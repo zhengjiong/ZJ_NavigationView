@@ -28,7 +28,7 @@
 
         <!--
         statusBarColor设置为透明是因为我们不再需要系统的status bar，
-        因为我们无法控制它的位置，我们将交由DrawerLayout来处理。
+        因为我们无法控制它的位置，我们将交由NavigationView来处理。
         這裡必須設置成透明色,不然drawer會被系統的statusbar遮擋住
         -->
         <item name="android:statusBarColor">@android:color/transparent</item>
