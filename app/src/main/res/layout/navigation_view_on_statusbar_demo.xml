@@ -7,7 +7,9 @@
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
     >
-<!--DrawerLayout如果加了android:fitsSystemWindows="true"
+<!--DrawerLayout如果加了android:fitsSystemWindows="true",
+    并且在v21-style中添加了<item name="android:statusBarColor">@android:color/transparent</item>
+    和<item name="android:windowDrawsSystemBarBackgrounds">true</item>
     就可以让DrawerLayout覆盖在StatusBar上-->
     <LinearLayout
         android:layout_width="match_parent"
